@@ -100,7 +100,7 @@ Setup for developers (Windows)
     $ GRANT ALL PRIVILEGES ON systersdb TO <username created above>;
     ```
 1. Fill in the database details in `systers_portal/settings/dev.py`.
-1. Run `set SECRET_KEY=foobarbaz` in your terminal, ideally the secret key
+1. Run `set SECRET_KEY=foobarbaz` in your command terminal as well as in the psql terminal, ideally the secret key
   should be 40 characters long, unique and unpredictable. 
 1. Run `python systers_portal/manage.py migrate`.
 1. Run `python systers_portal/manage.py cities_light` for downloading and importing data for django-cities-light.
